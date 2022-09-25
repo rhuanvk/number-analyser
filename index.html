@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Number Analyser</h1>
+    </header>
+    <section class="analyser">
+      <div class="analyser-display">
+        <label for="number">Enter a number from 0 to 100:</label>
+        <input type="number" id="number" />
+        <button type="button" id="add" onclick="addNumber()">Add</button>
+        <br />
+        <select id="list" size="7">
+          <option value=""></option>
+        </select>
+        <br />
+        <button type="button" id="verify">Verify</button>
+      </div>
+      <div class="analyser-answers">
+        <p id="quantity"></p>
+        <p id="highest"></p>
+        <p id="lowest"></p>
+        <p id="sum"></p>
+        <p id="average"></p>
+      </div>
+    </section>
+    <footer>&copy; 2022 - RH Productions</footer>
+  </body>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </html>
