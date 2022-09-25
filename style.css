@@ -1,7 +1,7 @@
 body {
   background-color: #6b7db3;
-  font-family:Arial, Helvetica, sans-serif;
-  
+  font-family: Arial, Helvetica, sans-serif;
+
   color: #e6ecff;
   margin: 0;
   display: flex;
@@ -9,7 +9,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 .analyser {
   background-color: #e6ecff;
@@ -21,12 +20,12 @@ body {
 }
 
 select {
-margin-top: 12px;
+  margin-top: 12px;
 }
 
 #list,
 #verify {
-  width: 125px;
+  width: 170px;
 }
 
 footer {
